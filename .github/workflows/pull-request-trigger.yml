@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [opened, edited]
     branches:
-      - '*' # change this
+      - '*' # why won't this work
 
 jobs:
   Check-For-Linked-Issue:
