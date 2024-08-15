@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [opened, edited]
     branches:
-      - '*'
+      - '*' # change this back when finished
 
 jobs:
   Check-For-Linked-Issue:
